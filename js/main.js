@@ -11,4 +11,5 @@ const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-console.log("ghefw")
+console.log("ghefw");
+console.log("fdsf")
