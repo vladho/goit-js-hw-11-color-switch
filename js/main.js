@@ -12,4 +12,3 @@ const randomIntegerFromInterval = (min, max) => {
 };
 
 console.log("ghefw");
-console.log("dsf")
