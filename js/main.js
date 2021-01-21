@@ -30,7 +30,8 @@ startRef.addEventListener("click", () => {
   const randomColor = () => {
     colorRef.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length - 1)];
   }
-  timerId = setInterval(randomColor, 3000)
+  randomColor()
+  timerId = setInterval(randomColor, 1000)
 })
 
 stopRef.addEventListener("click", () => {
