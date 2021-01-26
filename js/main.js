@@ -31,7 +31,7 @@ startRef.addEventListener("click", () => {
       colors[randomIntegerFromInterval(0, colors.length - 1)];
   };
   randomColor();
-  timerId = setInterval(randomColor, 3000);
+  timerId = setInterval(randomColor, 1000);
 });
 
 stopRef.addEventListener("click", () => {
